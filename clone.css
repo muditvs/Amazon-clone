@@ -1,0 +1,149 @@
+:root {
+    --blue: #1e90ff;
+    --white: #ffffff;
+  }
+
+*{
+    margin:0;
+    border:border-box;
+}
+.navbar{
+    height:60px;
+    background-color: black;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.nav-logo{
+    height:50px;
+    width:90px;
+    color:white;
+    
+}
+.logo{
+    background-image:url("1688364329amazon-logo-png-white.png");
+background-size: cover;
+height: 20px;
+width: 70px;
+margin-top: 1rem;
+margin-left:0.2rem;
+    
+}
+.border{
+   border: 2px solid transparent ;
+}
+.border:hover{
+    border: 2px solid white ;
+}
+.nav-add{
+    height:50px;
+    width:100px; 
+ 
+}
+.add-icon{
+    display:flex;
+    height:50px;
+    width:100px;
+    color:white;
+}
+
+.fix-align{
+    margin-top: 0.4rem;
+    margin-left: 0.9rem;
+}
+.add-first{
+font-size: 0.8rem;
+color: var(--white);
+}
+.add-sec{
+font-size:1rem;
+}
+.search{
+    display:flex;
+    background-color: #febd68;
+    width:620px;
+    height:40px;
+    border-radius: 3px;
+    justify-content:space-evenly ;
+
+}
+.search:hover{
+    border:2px solid #febd68 ;
+}
+.select-search{
+    height:40px;
+    background-color: #f3f3f3;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border:none;
+    height:40px;
+    
+}
+.input-search{
+    
+    width:100%;
+    font-size:1rem;
+    border:none;
+}
+.icon-search{
+    height:40px;
+    width: 45px;
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    font-size:1.2rem;   
+}
+
+span{
+    color:white;
+    font-size: 0.7rem;
+}
+.text-second{
+    color:white;
+    font-size: 0.8rem;
+    font-weight: 700px;
+}
+.nav-cart{
+    color:white;
+    font-weight:700px;
+}
+.nav-cart i{
+    font-size:30px;
+}
+
+/**panel**/
+.panel{
+    height:40px;
+    background-color:#222f3d;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content: space-evenly;
+} 
+.panel-options{
+    justify-content:space-evenly;
+    width:70%;
+    font-size:0.8rem;
+}
+.panel-options p{
+    display:inline;
+   margin-right:30px;
+}
+.panel-last{
+    font-size:0.9rem;
+}
+
+/**hero**/
+.hero{
+    background-image: url("hero.jpg");
+    height:600px;
+    background-size:cover;
+}
+.hero-msg{
+    height:30px;
+     background-color:white;
+     display:flex;
+     align-items:center;
+    justify-content:center;
+    font-size:0.85rem;
+}
